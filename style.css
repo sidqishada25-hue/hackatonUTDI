@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#formMahasiswa {
+  display: flex;
+  gap: 10px;
+  max-width: 500px;
+  margin: 25px auto;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 12px 18px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+#datamahasiswa {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.item-mahasiswa {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px #00000010;
+}
